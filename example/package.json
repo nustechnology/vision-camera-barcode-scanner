@@ -1,0 +1,30 @@
+{
+  "name": "vision-camera-code-scanner-example",
+  "description": "Example app for vision-camera-code-scanner",
+  "version": "0.1.2",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "@shopify/react-native-skia": "0.1.186",
+    "react": "18.2.0",
+    "react-native": "0.71.7",
+    "react-native-screens": "^3.20.0",
+    "react-native-vision-camera": "https://github.com/mrousavy/react-native-vision-camera#820db3ca9e646a611b54f55c402ea9cbf022b7f3",
+    "react-native-worklets": "https://github.com/chrfalch/react-native-worklets#10abdf160ec0373e51138ed409ce021464c2c6fe"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/runtime": "^7.20.13",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "metro-react-native-babel-preset": "^0.76.4",
+    "string-hash-64": "^1.0.3"
+  },
+  "packageManager": "yarn@3.5.0",
+  "resolutions": {
+    "react-native-vision-camera": "patch:react-native-vision-camera@https%3A//github.com/mrousavy/react-native-vision-camera.git%23commit=820db3ca9e646a611b54f55c402ea9cbf022b7f3#./.yarn/patches/react-native-vision-camera-https-167742576d.patch"
+  }
+}
